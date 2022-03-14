@@ -11,6 +11,8 @@ import { CartComponent } from './components/cart/cart.component';
 
 import { MaterialModule } from './../material/material.module';
 
+import { QuickLinkModule } from 'ngx-quicklink';
+
 @NgModule({
   declarations: [
     ExponentialPipe,
@@ -29,7 +31,8 @@ import { MaterialModule } from './../material/material.module';
     CommonModule,
     RouterModule,
     MaterialModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    QuickLinkModule,
   ]
 })
 export class SharedModule { }
